@@ -1,0 +1,42 @@
+
+* {
+    font-family: 'Libre Franklin', sans-serif;
+    box-sizing: border-box;
+  }
+body{
+    text-align: -webkit-center;
+}
+h2{
+    text-transform: uppercase
+    
+}
+h2  span{
+    color: hsl(223, 87%, 63%);
+}
+h1 span{
+    color:  hsl(0, 0%, 59%);
+    font-weight: 300;
+}
+
+h5{
+    font-weight: 300;   
+}
+input[type=email]{
+    color: hsl(223, 100%, 88%);
+    border-color:hsl(223, 100%, 88%);
+    border-radius: 30px;
+    padding: 10px;
+    width: 300px;
+}
+input[type=button]{
+    background-color: hsl(223, 87%, 63%);
+    border-color: hsl(223, 87%, 63%);
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+}
+img{
+    width: 500px;
+    padding-top: 50px;
+}
