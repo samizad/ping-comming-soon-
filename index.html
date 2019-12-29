@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Ping coming soon page</title>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet ًں‘چ -->
 
 </head>
@@ -19,13 +20,27 @@
             <h5> Subscribe and get notified</h5>
     </div>
     <div class="notif">
-        <input type="email" placeholder=" Your email address:">
-        <input type="button" value="Notify Me">
+        <input
+            id="email"
+            type="email"
+            class="form-input"
+            name="email"
+            aria-label="Email address"
+            placeholder="Your email address..."
+            title="email"
+          />
+          <p class="email-address-error">
+            Please provide a valid email address
+          </p>
+        <input type="button"  id="notifbutt" onClick="validateInput()" value="Notify Me"  >
     </div>
     <div class="image">
             <img src="./Images/illustration-dashboard.png" alt="illustration-dashboard">
     </div>
-    <div class="socialicon"></div>
+    <div class="socialicon">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+    </div>
  
 </div>
   <footer>
